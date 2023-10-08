@@ -13,7 +13,7 @@
 
 ---
 
-## 2. Feature Transformation
+## 2. Feature Transformation Service
 - **Directory**: `feature transform`
 - **Notebook**: `masking`
 - **Purpose**: To transform XAI results into masking images.
@@ -24,7 +24,7 @@
 
 ---
 
-## 3. Prediction Changes Evaluation
+## 3. Evaluation Service
 
 - **Directory**: `prediction_changes`
 - **Notebook**: `pcd.ipynb`
@@ -34,3 +34,4 @@
   - Calculates prediction changes scores based on the masked images.
   - Provides a comprehensive statistical analysis of the results.
 
+## pytorch_grad_cam is just method helper
